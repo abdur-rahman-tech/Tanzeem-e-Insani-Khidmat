@@ -1,97 +1,80 @@
-# 🤝 Tanzeem-e-Insani Khidmat (TIK) Shishi — Smart Welfare Platform
+ # 🤝 Tanzeem-e-Insani Khidmat (TIK) Shishi — Smart Welfare Platform
 
 > **Motto:** *Service, Brotherhood, Progress (خدمت، اخوت، ترقی)*  
-> An AI-powered, community-driven welfare web platform built for **Tanzeem-e-Insani Khidmat (TIK)** in Shishi London, Drosh, Lower Chitral, Khyber Pakhtunkhwa, Pakistan.
+> A modern, AI-powered community welfare web application built for **Tanzeem-e-Insani Khidmat (TIK)**, serving the community of Shishi London, Drosh, Lower Chitral, Khyber Pakhtunkhwa, Pakistan.
 
 ---
 
-## 🔗 Live Application & Repository
-* **🌐 Live Production URL:** [https://your-app-name.vercel.app](https://your-app-name.vercel.app) *(Replace with your actual Vercel link)*
-* **🐙 GitHub Repository:** [https://github.com/your-username/tik-shishi-welfare](https://github.com/your-username/tik-shishi-welfare)
+## 🌐 Live Application & Links
+
+* **Live Web Application:** [https://your-app-name.vercel.app](https://your-app-name.vercel.app) *(Replace with your Vercel URL)*
+* **GitHub Repository:** [https://github.com/your-username/tik-shishi-welfare](https://github.com/your-username/tik-shishi-welfare)
 
 ---
 
-## 🎯 Project Overview & Mission
+## 🎯 Executive Overview
 
-**Tanzeem-e-Insani Khidmat (TIK)** was established on **January 11, 2025**, to address pressing infrastructural, social, and humanitarian challenges in rural mountain communities across Lower Chitral. 
+**Tanzeem-e-Insani Khidmat (TIK) Shishi** was established on **January 11, 2025**, as a non-political, non-profit welfare organization. 
 
-This digital platform digitizes operations, enhances donor transparency, coordinates community assets, and automates administrative relief campaigns using Google AI Studio (Gemini 2.5 Flash).
+This platform acts as a digital nerve center to manage rural welfare operations, facilitate community asset sharing, maintain transparent financial ledgers, and automate humanitarian appeals using Generative AI.
 
----
-
-## 👥 Organizational Structure & Governance
-
-### 🛠️ Software Development & Technical Architecture
-* **Abdur Rahman** — Volunteer Software Developer & Lead Technical Architect
-
-### 🏛️ Executive Cabinet Members
-* **M. Sami Ul Haq** — President (صدر)
-* **Inam Ul Haq** — General Secretary (جنرل سیکرٹری)
-* **Zia Ur Rahman** — Community Fundraising Coordinator (کمیونٹی فنڈ ریزنگ کوآرڈینیٹر)
-* **Amir Hussain** — Overseas Fundraising Coordinator (اوورسیز فنڈ ریزنگ کوآرڈینیٹر)
-* **Akhtar Uddin** — Overseas Fundraising Coordinator (اوورسیز فنڈ ریزنگ کوآرڈینیٹر)
-
-### 👥 General Society Members (28 Members)
-Shakir Hussain, Amir Ijad, Altaf, Abdul Samad, Muti Ullah, Amir Uddin, Abdul Rasheed, Arif Ullah, Sadam Hussain, Sadiq Hussain, Fazal Nabi, Rashid Nabi, Muhammad Ehtisham Ul Haq, Rahim Ullah, Zia Ur Rahman, Irshad Ahmad, Tanzeeb Khan, Syed Akbar Shah, Sher Faraz, Wahid Khan, Shaukat Khan, Liaqat, Akbar Wali, Muhammad Zia Ul Haq, Zakir Ullah, Mujeeb Ur Rahman, Absar Uddin, Mustafa Uddin, and Abbas Khan.
-
-📍 **Official Address:** Shishi London, Drosh, Lower Chitral, Khyber Pakhtunkhwa, Pakistan.
+### Key Organizational Roles & Governance
+* **Volunteer Software Developer:** Abdur Rahman *(Platform Architect & Technical Developer)*
+* **Executive Leadership:**
+  * **M. Sami Ul Haq** — President (صدر)
+  * **Inam Ul Haq** — General Secretary (جنرل سیکرٹری)
+  * **Zia Ur Rahman** — Community Fundraising Coordinator
+  * **Amir Hussain** — Overseas Fundraising Coordinator
+  * **Akhtar Uddin** — Overseas Fundraising Coordinator
+* **General Society Members:** 28 registered community representatives.
 
 ---
 
-## ✨ Key Modules & Features
+## 🧩 Frontend Architecture & Main Components
 
-### 1. 📅 Daily Activity & Progress Tracker
-* **Field Logs:** Record daily relief efforts, infrastructure repairs, and volunteer activities across local villages.
-* **Developer Controls:** Full CRUD (Create, Read, Update, Delete) management restricted to verified administrative sessions.
+The frontend is engineered as a responsive, single-page web application using **React**, **TypeScript**, **Tailwind CSS**, and **Lucide Icons**. 
 
-### 2. 💳 Donor Accounts & Financial Ledger
-* **Donor Directory:** Maintain accounts for givers (Name, Location, Total PKR Contributed, Receipt Logs).
-* **Transparent Receipts:** Log contributions by payment method (Bank Transfer, EasyPaisa, JazzCash, Overseas Wire).
-* **Automatic Ledger Aggregation:** Real-time calculation of total organization funds and donor history.
+### Core App Interface (`src/App.tsx` & `src/components/`)
 
-### 3. 🍽️ Karakari Equipment Cabinet (Community Assets)
-* **Resource Sharing:** Inventory of large community-owned utility items (Big Cooking Cauldrons / *Deg*, Large Serving Platters / *Thali*, Event Tents, Tea Samovars).
-* **Short-Term Borrow & Return System:** Issue equipment to villagers for short-term community events (weddings, funerals) at zero charge, tracking borrowed vs. available inventory.
-
-### 4. 👥 Volunteer Registration & Onboarding Portal
-* **Skill Classification:** Register and organize local volunteers into functional units (Skilled Construction, Logistics, Relief Distribution, First Aid/Emergency, Technical/Solar).
-* **Hours & Value Tracking:** Zero-Cost Labor calculator displaying total volunteer hours and monetary value saved for beneficiaries.
-
-### 5. 🚰 Community Welfare Projects
-* **Water Supply Infrastructure:** Track high-altitude gravity-fed HDPE pipelines and natural water source protection.
-* **Zero-Cost House Building:** Coordinate volunteer masons and youth to repair/build homes for widows, orphans, and destitute families with zero labor charges.
-* **Smart Rashan Distribution:** Anti-duplication food pack allocation using verified records.
-* **Solar Aid & Pathways:** Micro-solar installations and pathway restoration.
-
-### 6. 🤖 Lead AI Coordinator Hub (Google AI Studio)
-* Powered by **Gemini 2.5 Flash** to auto-generate bilingual (Urdu & English) donor campaign appeals, emergency disaster updates, and field task rosters.
-
----
-
-## 🔒 Security & Admin Access
-
-To maintain data integrity while ensuring public transparency:
-* **Public View:** Community members can view daily updates, project trackers, donor accounts, equipment availability, and cabinet directories in read-only mode.
-* **Developer Admin PIN:** All creation, editing, and deletion operations require unlocking the admin mode via developer authentication code: **`7860`**.
-
----
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
+| Component | Description & Functionality |
 | :--- | :--- |
-| **Frontend Framework** | React / TypeScript / Vite |
-| **Styling & UI Components** | Tailwind CSS / Lucide React Icons |
-| **AI Integration** | Google AI Studio (Gemini 2.5 Flash API) |
-| **Version Control** | GitHub |
-| **Hosting & Deployment** | Vercel |
+| **`Header.tsx`** | Top navigation bar displaying organization branding, official address, language toggles (English/Urdu), and the developer authentication lock status. |
+| **`AICoordinatorHub.tsx`** | Generative AI hub integrated with **Google AI Studio (Gemini 2.5 Flash)** to auto-generate bilingual donor campaign appeals, emergency alerts, and volunteer task rosters. |
+| **`DailyActivityTracker.tsx`** | Public feed for logging, editing, and viewing daily field operations and village progress reports. |
+| **`FundsAndDonorsTracker.tsx`** | Transparent financial ledger tracking donor accounts, contribution receipts, payment methods, and cause allocations. |
+| **`KarakariCabinetTracker.tsx`** | Community resource management system tracking short-term borrowing and returns for shared utility equipment (large cooking cauldrons, event tents, platters). |
+| **`VolunteerPortal.tsx`** | Registration, skill classification (Construction, First Aid, Logistics), and active status roster for community volunteers. |
+| **`CabinetMembersTracker.tsx`** | Executive directory featuring profile cards for Cabinet Members, contact details for General Society Members, and direct device photo management. |
+| **`WaterSupplyTracker.tsx`** | Tracking high-altitude gravity-fed HDPE pipeline maintenance and natural spring protection projects. |
+| **`HouseConstructionTracker.tsx`** | Case registry for zero-cost housing construction and structural repairs for widows, orphans, and destitute families. |
+| **`RashanDistributionTracker.tsx`** | Resource distribution tracker preventing duplicate food package allocations. |
+| **`SolarCommunityTracker.tsx`** | Management for micro-solar lighting installations and public pathway improvements. |
+| **`TransparencyReport.tsx`** | Public audit dashboard verifying zero administrative overhead and direct relief metrics. |
+| **`AdminAuthModal.tsx`** | Security verification modal granting full administrative CRUD access to authorized developers via PIN (`7860`). |
 
 ---
 
-## ⚙️ Environment Variables
+## 🔒 Security & Access Control
 
-For local development or custom deployments, configure your `.env` file:
+To protect operational data while maintaining complete public transparency:
+* **Public Mode (Read-Only):** Community members and donors can freely browse daily field activities, equipment availability, donor ledgers, and project statuses.
+* **Developer Admin Access:** Administrative actions (Adding, Editing, Deleting) across all components are secured behind developer PIN authentication (`7860`).
 
-```env
-# Google Gemini API Key from Google AI Studio
-GEMINI_API_KEY=your_google_ai_studio_api_key_here
+---
+
+## 🛠️ Technology Stack
+
+* **Frontend Framework:** React (TypeScript) / Vite
+* **Styling & UI:** Tailwind CSS / Lucide React Icons
+* **Generative AI:** Google AI Studio — Gemini 2.5 Flash API
+* **Version Control & CI/CD:** GitHub
+* **Hosting Platform:** Vercel
+
+---
+
+## 🚀 Quick Start for Developers
+
+1. **Clone Repository:**
+   ```bash
+   git clone [https://github.com/your-username/tik-shishi-welfare.git](https://github.com/your-username/tik-shishi-welfare.git)
+   cd tik-shishi-welfare
