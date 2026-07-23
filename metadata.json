@@ -1,0 +1,6 @@
+{
+  "name": "Tanzeem-e-Insani Khidmat (TIK) Shishi",
+  "description": "AI Coordinator & Humanitarian Strategy Platform for Tanzeem-e-Insani Khidmat (TIK) Shishi, Lower Chitral, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
